@@ -1,0 +1,2 @@
+models/Reading.cs \
+models/ReadingGrpc.cs: ../reading.proto

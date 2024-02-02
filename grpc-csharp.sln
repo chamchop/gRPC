@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{AE6D6BEF-B1FD-44AC-A78A-D91330824D9D}"
+	ProjectSection(SolutionItems) = preProject
+		dummy.proto = dummy.proto
+		greeting.proto = greeting.proto
+		prime.proto = prime.proto
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{9A297805-10DC-43A3-8799-A9574E317481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csproj", "{8B2CD7AE-2DC3-4719-A129-2F991ADD9C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise-client", "client-exercise\exercise-client.csproj", "{4677CCF2-EA85-41AE-8943-6CF74DA98736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise-server", "server-exercise\exercise-server.csproj", "{4B9B869F-3564-4FF0-9DBE-971695666A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC35C78E-BAC0-4E5F-8CEA-BAB8628D4FB3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\class\ssl\ssl.sh = ..\..\class\ssl\ssl.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A297805-10DC-43A3-8799-A9574E317481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A297805-10DC-43A3-8799-A9574E317481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A297805-10DC-43A3-8799-A9574E317481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A297805-10DC-43A3-8799-A9574E317481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2CD7AE-2DC3-4719-A129-2F991ADD9C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2CD7AE-2DC3-4719-A129-2F991ADD9C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2CD7AE-2DC3-4719-A129-2F991ADD9C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2CD7AE-2DC3-4719-A129-2F991ADD9C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4677CCF2-EA85-41AE-8943-6CF74DA98736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4677CCF2-EA85-41AE-8943-6CF74DA98736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4677CCF2-EA85-41AE-8943-6CF74DA98736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4677CCF2-EA85-41AE-8943-6CF74DA98736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9B869F-3564-4FF0-9DBE-971695666A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9B869F-3564-4FF0-9DBE-971695666A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9B869F-3564-4FF0-9DBE-971695666A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9B869F-3564-4FF0-9DBE-971695666A34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CBACE27-B1DD-4AD3-9F5A-AC89520E2802}
+	EndGlobalSection
+EndGlobal
