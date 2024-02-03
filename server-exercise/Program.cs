@@ -1,6 +1,8 @@
-﻿using Greet;
+﻿using Blog;
+using Greet;
 using Grpc.Core;
 using Prime;
+using server_exercise;
 using System;
 using System.IO;
 
@@ -18,7 +20,8 @@ namespace server
             {
                 server = new Server()
                 {
-                    Services = { PrimeNumberService.BindService(new PrimeNumberServiceImp()) },
+/*                    Services = { PrimeNumberService.BindService(new PrimeNumberServiceImp()) },*/
+                    Services = { BlogService.BindService(new BlogServiceImpl()) },
                     Ports = { new ServerPort("localhost", Port, ServerCredentials.Insecure) }
                 };
 
