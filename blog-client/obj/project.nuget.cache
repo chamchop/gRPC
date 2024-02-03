@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "M5/qL35BI5wl4gkF5rhBIj+pGf5DsklOCL3AdX7oNrLXpsP357mz/evBL10ta+IiWWZgexk7KfnvKYtcncC7KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\grpc\\grpc-csharp\\blog-client\\blog-client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Capta\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\grpc.core.api\\2.60.0\\grpc.core.api.2.60.0.nupkg.sha512",
+    "C:\\Users\\Capta\\.nuget\\packages\\grpc.reflection\\2.60.0\\grpc.reflection.2.60.0.nupkg.sha512"
+  ],
+  "logs": []
+}
